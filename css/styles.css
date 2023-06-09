@@ -212,10 +212,57 @@ img {
   fill: #AFB1B8;
 }
 
-.team-soc-link:hover, .team-soc-link:focus {
+.team-social-link:hover, .team-social-link:focus {
   background-color: #2196F3;
   fill: #FFFFFF;
 }
+
+/* Customers */
+.customers{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.customers-title{
+    color: #212121;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.customers-list{
+    display: flex;
+    justify-content: center;
+}
+
+.customers-link{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+
+.customes-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.customers-logo {
+    fill: #AFB1B8;
+}
+
+.customers-link:hover, .clients-link:focus{
+    fill: 
+    border: 
+}
+
 /* Footer */
 .footer {
   background: var(--basic-color);
