@@ -191,6 +191,31 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+.team-social-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-social-link{
+  width: 44px;
+  height: 44px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #AFB1B8;
+}
+
+.team-soc-link:hover, .team-soc-link:focus {
+  background-color: #2196F3;
+  fill: #FFFFFF;
+}
 /* Footer */
 .footer {
   background: var(--basic-color);
