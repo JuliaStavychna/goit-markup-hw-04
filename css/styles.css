@@ -380,7 +380,7 @@ p {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container.container {
+.header-container {
   display: flex;
 }
 .container {
@@ -395,9 +395,6 @@ p {
 .header-list {
   display: flex;
   gap: 40px;
-}
-.header-item {
-  padding: 24px 0;
 }
 .nav-list.link {
   padding: 24px 0;
@@ -529,13 +526,27 @@ p {
   margin-bottom: 72px;
 }
 .filter-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  background: #F4F4FD;
+  color:#4d5ae5;
+  cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
   border: 1px solid transparent;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .projects-list.list {
