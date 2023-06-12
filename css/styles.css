@@ -262,7 +262,7 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -298,7 +298,9 @@ img {
   color: #404bbf;
 }
 .customers-logo{
-  fill: #4D5AE5;
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
 }
 .customers-link:hover, .clients-link:focus{
   fill: #2196F3;
