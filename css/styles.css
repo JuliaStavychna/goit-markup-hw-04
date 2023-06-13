@@ -231,10 +231,6 @@ img {
   height: 40px;
 }
 
-.team-social-item:not(:last-child) {
-  margin-right: 10px;
-}
-
 .team-social-link{
   cursor: pointer;
   display: flex;
