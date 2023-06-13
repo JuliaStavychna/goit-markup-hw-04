@@ -308,9 +308,9 @@ img {
   width: 104px;
   height: 56px;
 }
-.customers-link:hover, .clients-link:focus{
+.customers-link:hover, .customers-link:focus{
   fill: #2196F3;
-  border: 1px solid #2196F3;
+  border: 1px solid #404bbf;
 }
 
 /* Footer */
