@@ -46,7 +46,7 @@ img {
 }
 .header {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 /* Header Navigation */
 .nav-list.link {
@@ -138,7 +138,7 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -192,15 +192,15 @@ img {
   color: var(--basic-color);
 }
 .teammate-container {
-  padding-top: 32px; 
-  padding-bottom: 32px; 
-  padding-left: 16px; 
-  padding-right: 16px
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .teammate {
   background-color: var(--white-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .teammate-name {
   margin-bottom: 8px;
@@ -223,7 +223,6 @@ img {
 .team-social-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
   gap: 24px;
 }
 .team-social-item {
@@ -231,7 +230,7 @@ img {
   height: 40px;
 }
 
-.team-social-link{
+.team-social-link {
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -239,12 +238,13 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #4D5AE5;
+  background-color: #4d5ae5;
 }
 
-.team-social-link:hover, .team-social-link:focus {
+.team-social-link:hover,
+.team-social-link:focus {
   background-color: #404bbf;
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 .team-social-logo {
   width: 16px;
@@ -303,13 +303,14 @@ img {
   border-color: #404bbf;
   color: #404bbf;
 }
-.customers-logo{
+.customers-logo {
   fill: currentColor;
   width: 104px;
   height: 56px;
 }
-.customers-link:hover, .customers-link:focus{
-  fill: #2196F3;
+.customers-link:hover,
+.customers-link:focus {
+  fill: #2196f3;
   border: 1px solid #404bbf;
 }
 
@@ -350,8 +351,8 @@ img {
   margin-right: 120px;
 }
 .footer-social-text {
-  font-family: 'Roboto';
-font-style: normal;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -586,18 +587,18 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 .logotype-footer {
   margin-bottom: 16px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5;
+  color: #4d5ae5;
   display: inline-block;
 }
 .webstudio-footer {
@@ -630,8 +631,8 @@ p {
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  background: #F4F4FD;
-  color:#4d5ae5;
+  background: #f4f4fd;
+  color: #4d5ae5;
   cursor: pointer;
 }
 .filter-button:hover,
