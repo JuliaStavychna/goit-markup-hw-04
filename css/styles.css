@@ -27,7 +27,6 @@ img {
   letter-spacing: 0.03em;
   align-items: center;
   text-transform: uppercase;
-  text-decoration: none;
 }
 .studio {
   font-family: "Raleway", sans-serif;
@@ -77,7 +76,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
-  text-decoration: none;
 }
 .address-contact.link:hover,
 .address-contact.link:focus {
