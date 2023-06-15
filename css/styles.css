@@ -555,7 +555,7 @@ p {
 .filters > ul {
   list-style-type: none;
 }
-.filters-button {
+.filter-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
