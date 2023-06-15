@@ -106,8 +106,6 @@ p {
 .nav-list.link:hover,
 .nav-list.link:focus {
   color: var(--button-color);
-  text-decoration-line: underline;
-  text-decoration-color: var(--button-color);
 }
 /* Address */
 .address {
